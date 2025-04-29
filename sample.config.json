@@ -1,0 +1,90 @@
+{
+  "channels": [
+    {
+      "name": "Auto Stock",
+      "sourceChannelId": "1361674281699774654",
+      "allowedUserIds": ["1365951457043550258"],
+      "webhookURL": "https://discord.com/api/webhooks/xx/xxx"
+    },
+    {
+      "name": "Weather",
+      "sourceChannelId": "1360820739678273606",
+      "rolePingOnly": true,
+      "webhookURL": "https://discord.com/api/webhooks/xx/xxxx"
+    }
+  ],
+  "roles": {
+    "1365653439270359140": {
+      "name": "Snow",
+      "destinationRoleId": "1365661415050051614"
+    },
+    "1361378471623790724": {
+      "name": "Thunder",
+      "destinationRoleId": "1365064050567807048"
+    },
+    "1361378238735061195": {
+      "name": "Rain",
+      "destinationRoleId": "1365063891335385199"
+    },
+    "1363155610488803478": {
+      "name": "Master Splinker",
+      "destinationRoleId": "1365059760277295175"
+    },
+    "1365647520050577460": {
+      "name": "Lightning Rod",
+      "destinationRoleId": "1365667638423982211"
+    },
+    "1361266529345212578": {
+      "name": "Advanced Splinker",
+      "destinationRoleId": "1365059275839377489"
+    },
+    "1361266515919241278": {
+      "name": "Godly Splinker",
+      "destinationRoleId": "1365059465958920192"
+    },
+    "1365642958854033493": {
+      "name": "Mashroom",
+      "destinationRoleId": "1365662726223040572"
+    },
+    "1362971024051933286": {
+      "name": "Grape",
+      "destinationRoleId": "1365056568005230762"
+    },
+    "1360819164951875645": {
+      "name": "Mango",
+      "destinationRoleId": "1365056666474774528"
+    },
+    "1360818402033401937": {
+      "name": "Dragon Fruit",
+      "destinationRoleId": "1365056886310834247"
+    },
+    "1360818411982028964": {
+      "name": "Cactus",
+      "destinationRoleId": "1365057124647829635"
+    },
+    "1360818412766498896": {
+      "name": "Coconut",
+      "destinationRoleId": "1365057556417871942"
+    },
+    "1360818413718605994": {
+      "name": "Bamboo",
+      "destinationRoleId": "1365057818838958100"
+    },
+    "1360818417913036873": {
+      "name": "Apple",
+      "destinationRoleId": "1365057879551508522"
+    },
+    "1360818420861501600": {
+      "name": "Pumpkin",
+      "destinationRoleId": "1365057996945752225"
+    },
+    "1360818423973806282": {
+      "name": "Watermelon",
+      "destinationRoleId": "1365058459527155862"
+    },
+    "1363166331897249812": {
+      "name": "Daffodil",
+      "destinationRoleId": "1365058811185856613"
+    }
+  }
+}

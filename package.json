@@ -1,0 +1,27 @@
+{
+  "name": "vkynarbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node --env-file=.env dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node --env-file=.env ./dist/index.js\"",
+    "build": "rimraf dist && tsc"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/node": "^22.13.4",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.6.1"
+  }
+}
