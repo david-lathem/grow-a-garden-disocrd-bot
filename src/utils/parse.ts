@@ -59,9 +59,13 @@ export const parseEmbedsToCustom = (
 
     const targetField = e.fields[0];
 
+    console.log(targetField);
+    
     if (targetField) {
       
       targetField.value.split("\n").forEach((itemData) => {
+        console.log(itemData.split('-'));
+        
         const [amount, name] = itemData.split("-");
         
         filteredFields.push({ name, value: `\`${amount.trim()}\``, inline: true });
