@@ -62,7 +62,7 @@ export const parseEmbedsToCustom = (
     targetField.value.split("\n").forEach((itemData) => {
       const [amount, name] = itemData.split("-");
 
-      filteredFields.push({ name, value: amount, inline: true });
+      filteredFields.push({ name, value: `\`${amount}\``, inline: true });
     });
 
     customEmbed.setFields(filteredFields);
