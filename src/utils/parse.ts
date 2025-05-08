@@ -10,6 +10,7 @@ export const getChannelConfig = (message: Message) => {
   const channelConfig = config.channels.find(
     (c) => c.sourceChannelId === message.channelId
   );
+
   if (!channelConfig) return;
 
   if (
@@ -25,6 +26,7 @@ export const getChannelConfig = (message: Message) => {
       .map((rId) => `<@&${rId}>`)
       .join(" ");
   }
+  if (channelConfig.noEmbed) message.embeds = [];
 
   return channelConfig;
 };
@@ -53,10 +55,14 @@ export const parseEmbedsToCustom = (
 
     const filteredFields: EmbedField[] = [];
 
-    e.fields.forEach((f) => {
-      if (f.value == "0") return;
-      f.value = `\`${f.value}x\``;
-      filteredFields.push(f);
+    // first field has all data
+
+    const targetField = e.fields[0];
+
+    targetField.value.split("\n").forEach((itemData) => {
+      const [amount, name] = itemData.split("-");
+
+      filteredFields.push({ name, value: amount, inline: true });
     });
 
     customEmbed.setFields(filteredFields);

@@ -2,89 +2,108 @@
   "channels": [
     {
       "name": "Auto Stock",
-      "sourceChannelId": "1361674281699774654",
-      "allowedUserIds": ["1365951457043550258"],
-      "webhookURL": "https://discord.com/api/webhooks/xx/xxx"
+      "sourceChannelId": "1364698797363429501",
+      "allowedUserIds": ["1366032726402011226"],
+      "rolePingOnly": true,
+
+      "webhookURL": "https://discord.com/api/webhooks/z/xx"
     },
     {
       "name": "Weather",
-      "sourceChannelId": "1360820739678273606",
+      "sourceChannelId": "1365288100577677372",
       "rolePingOnly": true,
-      "webhookURL": "https://discord.com/api/webhooks/xx/xxxx"
+      "noEmbed": true,
+      "webhookURL": "https://discord.com/api/webhooks/z/xx"
     }
   ],
   "roles": {
-    "1365653439270359140": {
+    "1368241347647115344": {
+      "name": "Leg Egg",
+      "destinationRoleId": "1368256525545766992"
+    },
+    "1368241911231680664": {
+      "name": "Rare Egg",
+      "destinationRoleId": "1368255960879075450"
+    },
+    "1368241701776265246": {
+      "name": "Bugg Egg",
+      "destinationRoleId": "1368256866575978677"
+    },
+    "1366142236643037284": {
       "name": "Snow",
       "destinationRoleId": "1365661415050051614"
     },
-    "1361378471623790724": {
+    "1366383224632119377": {
       "name": "Thunder",
       "destinationRoleId": "1365064050567807048"
     },
-    "1361378238735061195": {
+    "1366382425600426086": {
       "name": "Rain",
       "destinationRoleId": "1365063891335385199"
     },
-    "1363155610488803478": {
+    "1365393010560471060": {
       "name": "Master Splinker",
       "destinationRoleId": "1365059760277295175"
     },
-    "1365647520050577460": {
+    "1365753689288999043": {
       "name": "Lightning Rod",
       "destinationRoleId": "1365667638423982211"
     },
-    "1361266529345212578": {
+    "1365392892494872748": {
       "name": "Advanced Splinker",
       "destinationRoleId": "1365059275839377489"
     },
-    "1361266515919241278": {
+    "1365392916566249564": {
       "name": "Godly Splinker",
       "destinationRoleId": "1365059465958920192"
     },
-    "1365642958854033493": {
+    "1365753530974998651": {
       "name": "Mashroom",
       "destinationRoleId": "1365662726223040572"
     },
-    "1362971024051933286": {
+    "1364717855215587368": {
       "name": "Grape",
       "destinationRoleId": "1365056568005230762"
     },
-    "1360819164951875645": {
+    "1364717774521241732": {
       "name": "Mango",
       "destinationRoleId": "1365056666474774528"
     },
-    "1360818402033401937": {
+    "1365389178472497233": {
       "name": "Dragon Fruit",
       "destinationRoleId": "1365056886310834247"
     },
-    "1360818411982028964": {
+    "1365389117692580042": {
       "name": "Cactus",
       "destinationRoleId": "1365057124647829635"
     },
-    "1360818412766498896": {
+    "1365389061719720046": {
       "name": "Coconut",
       "destinationRoleId": "1365057556417871942"
     },
-    "1360818413718605994": {
+    "1365389023895486475": {
       "name": "Bamboo",
       "destinationRoleId": "1365057818838958100"
     },
-    "1360818417913036873": {
+    "1365388953460412496": {
       "name": "Apple",
       "destinationRoleId": "1365057879551508522"
     },
-    "1360818420861501600": {
+    "1365388084153417808": {
       "name": "Pumpkin",
       "destinationRoleId": "1365057996945752225"
     },
-    "1360818423973806282": {
+    "1365388046135988336": {
       "name": "Watermelon",
       "destinationRoleId": "1365058459527155862"
     },
-    "1363166331897249812": {
+    "1365388001399672832": {
       "name": "Daffodil",
       "destinationRoleId": "1365058811185856613"
+    },
+    "1368233842573574316": {
+      "name": "Pepper",
+      "destinationRoleId": "1368258714418806874"
     }
   }
 }
