@@ -13,13 +13,11 @@ client.on("ready", async (client) => {
 
 client.on("messageCreate", async (message) => {
   try {
-    const { embeds } = message;
-
     const channelConfig = getChannelConfig(message);
 
     if (!channelConfig) return;
 
-    const customEmbeds = parseEmbedsToCustom(message.client, embeds);
+    const customEmbeds = parseEmbedsToCustom(message.client, message.embeds);
     const parsedContent = replaceRoles(message);
 
     const webhook = new WebhookClient({ url: channelConfig.webhookURL });
